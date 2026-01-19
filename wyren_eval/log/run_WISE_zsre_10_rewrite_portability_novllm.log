@@ -1,364 +1,0 @@
-/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/torchvision/datapoints/__init__.py:12: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/torchvision/transforms/v2/__init__.py:54: UserWarning: The torchvision.datapoints and torchvision.transforms.v2 namespaces are still Beta. While we do not expect major breaking changes, some APIs may still change according to user feedback. Please submit any feedback you may have in this issue: https://github.com/pytorch/vision/issues/6753, and you can also check out https://github.com/pytorch/vision/issues/7319 to learn more about the APIs that we suspect might involve future changes. You can silence this warning by calling torchvision.disable_beta_transforms_warning().
-  warnings.warn(_BETA_TRANSFORMS_WARNING)
-/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/torch/_utils.py:776: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
-  return self.fget.__get__(instance, owner)()
-  0%|          | 0/1301 [00:00<?, ?it/s]  0%|          | 1/1301 [00:00<17:54,  1.21it/s]  1%|          | 11/1301 [00:00<01:22, 15.58it/s]  2%|▏         | 21/1301 [00:01<00:43, 29.54it/s]  2%|▏         | 31/1301 [00:01<00:29, 42.56it/s]  3%|▎         | 41/1301 [00:01<00:23, 53.69it/s]  4%|▍         | 51/1301 [00:01<00:19, 63.20it/s]  5%|▍         | 61/1301 [00:01<00:17, 71.04it/s]  5%|▌         | 71/1301 [00:01<00:15, 77.30it/s]  6%|▌         | 81/1301 [00:01<00:14, 82.64it/s]  7%|▋         | 91/1301 [00:01<00:14, 85.73it/s]  8%|▊         | 101/1301 [00:01<00:13, 87.44it/s]  9%|▊         | 111/1301 [00:02<00:13, 88.82it/s]  9%|▉         | 121/1301 [00:02<00:13, 89.45it/s] 10%|█         | 131/1301 [00:02<00:12, 90.73it/s] 11%|█         | 141/1301 [00:02<00:12, 90.30it/s] 12%|█▏        | 151/1301 [00:02<00:12, 90.27it/s] 12%|█▏        | 161/1301 [00:02<00:12, 91.36it/s] 13%|█▎        | 171/1301 [00:02<00:12, 92.55it/s] 14%|█▍        | 181/1301 [00:02<00:12, 92.00it/s] 15%|█▍        | 191/1301 [00:02<00:11, 92.82it/s] 15%|█▌        | 201/1301 [00:02<00:11, 92.15it/s] 16%|█▌        | 211/1301 [00:03<00:11, 92.26it/s] 17%|█▋        | 221/1301 [00:03<00:11, 90.98it/s] 18%|█▊        | 231/1301 [00:03<00:12, 88.06it/s] 19%|█▊        | 241/1301 [00:03<00:11, 88.89it/s] 19%|█▉        | 251/1301 [00:03<00:11, 90.25it/s] 20%|██        | 261/1301 [00:03<00:11, 90.57it/s] 21%|██        | 271/1301 [00:03<00:11, 90.71it/s] 22%|██▏       | 281/1301 [00:03<00:11, 91.50it/s] 22%|██▏       | 291/1301 [00:03<00:10, 91.95it/s] 23%|██▎       | 301/1301 [00:04<00:10, 91.35it/s] 24%|██▍       | 311/1301 [00:04<00:10, 92.27it/s] 25%|██▍       | 321/1301 [00:04<00:10, 92.15it/s] 25%|██▌       | 331/1301 [00:04<00:10, 92.03it/s] 26%|██▌       | 341/1301 [00:04<00:10, 92.24it/s] 27%|██▋       | 351/1301 [00:04<00:10, 91.84it/s] 28%|██▊       | 361/1301 [00:04<00:10, 91.58it/s] 29%|██▊       | 371/1301 [00:04<00:10, 91.84it/s] 29%|██▉       | 381/1301 [00:04<00:09, 92.23it/s] 30%|███       | 391/1301 [00:05<00:09, 91.38it/s] 31%|███       | 401/1301 [00:05<00:09, 92.19it/s] 32%|███▏      | 411/1301 [00:05<00:09, 91.81it/s] 32%|███▏      | 421/1301 [00:05<00:09, 91.01it/s] 33%|███▎      | 431/1301 [00:05<00:09, 90.86it/s] 34%|███▍      | 441/1301 [00:05<00:09, 92.06it/s] 35%|███▍      | 451/1301 [00:05<00:09, 91.90it/s] 35%|███▌      | 461/1301 [00:05<00:09, 91.26it/s] 36%|███▌      | 471/1301 [00:05<00:09, 91.94it/s] 37%|███▋      | 481/1301 [00:06<00:08, 92.05it/s] 38%|███▊      | 491/1301 [00:06<00:08, 91.93it/s] 39%|███▊      | 501/1301 [00:06<00:08, 91.84it/s] 39%|███▉      | 511/1301 [00:06<00:08, 92.56it/s] 40%|████      | 521/1301 [00:06<00:08, 92.33it/s] 41%|████      | 531/1301 [00:06<00:08, 91.37it/s] 42%|████▏     | 541/1301 [00:06<00:08, 92.01it/s] 42%|████▏     | 551/1301 [00:06<00:08, 92.26it/s] 43%|████▎     | 561/1301 [00:06<00:08, 91.01it/s] 44%|████▍     | 571/1301 [00:07<00:07, 91.93it/s] 45%|████▍     | 581/1301 [00:07<00:07, 92.73it/s] 45%|████▌     | 591/1301 [00:07<00:07, 90.68it/s] 46%|████▌     | 601/1301 [00:07<00:07, 91.66it/s] 47%|████▋     | 611/1301 [00:07<00:07, 92.25it/s] 48%|████▊     | 621/1301 [00:07<00:07, 91.69it/s] 49%|████▊     | 631/1301 [00:07<00:07, 92.43it/s] 49%|████▉     | 641/1301 [00:07<00:07, 92.77it/s] 50%|█████     | 651/1301 [00:07<00:07, 91.98it/s] 51%|█████     | 661/1301 [00:08<00:06, 92.61it/s] 52%|█████▏    | 671/1301 [00:08<00:06, 92.41it/s] 52%|█████▏    | 681/1301 [00:08<00:06, 92.49it/s] 53%|█████▎    | 691/1301 [00:08<00:06, 92.71it/s] 54%|█████▍    | 701/1301 [00:08<00:06, 92.62it/s] 55%|█████▍    | 711/1301 [00:08<00:06, 93.03it/s] 55%|█████▌    | 721/1301 [00:08<00:06, 92.71it/s] 56%|█████▌    | 731/1301 [00:08<00:06, 92.45it/s] 57%|█████▋    | 741/1301 [00:08<00:06, 92.25it/s] 58%|█████▊    | 751/1301 [00:08<00:05, 92.54it/s] 58%|█████▊    | 761/1301 [00:09<00:05, 92.84it/s] 59%|█████▉    | 771/1301 [00:09<00:05, 92.15it/s] 60%|██████    | 781/1301 [00:09<00:05, 90.88it/s] 61%|██████    | 791/1301 [00:09<00:05, 91.77it/s] 62%|██████▏   | 801/1301 [00:09<00:05, 91.92it/s] 62%|██████▏   | 811/1301 [00:09<00:05, 92.18it/s] 63%|██████▎   | 821/1301 [00:09<00:05, 92.66it/s] 64%|██████▍   | 831/1301 [00:09<00:05, 92.66it/s] 65%|██████▍   | 841/1301 [00:09<00:04, 92.50it/s] 65%|██████▌   | 851/1301 [00:10<00:04, 93.01it/s] 66%|██████▌   | 861/1301 [00:10<00:04, 92.64it/s] 67%|██████▋   | 871/1301 [00:10<00:04, 93.18it/s] 68%|██████▊   | 881/1301 [00:10<00:04, 93.33it/s] 68%|██████▊   | 891/1301 [00:10<00:04, 92.49it/s] 69%|██████▉   | 901/1301 [00:10<00:04, 92.56it/s] 70%|███████   | 911/1301 [00:10<00:04, 92.88it/s] 71%|███████   | 921/1301 [00:10<00:04, 92.46it/s] 72%|███████▏  | 931/1301 [00:10<00:04, 92.24it/s] 72%|███████▏  | 941/1301 [00:11<00:03, 92.57it/s] 73%|███████▎  | 951/1301 [00:11<00:03, 92.45it/s] 74%|███████▍  | 961/1301 [00:11<00:03, 91.17it/s] 75%|███████▍  | 971/1301 [00:11<00:03, 92.04it/s] 75%|███████▌  | 981/1301 [00:11<00:03, 91.99it/s] 76%|███████▌  | 991/1301 [00:11<00:03, 92.58it/s] 77%|███████▋  | 1001/1301 [00:11<00:03, 93.57it/s] 78%|███████▊  | 1011/1301 [00:11<00:03, 93.95it/s] 78%|███████▊  | 1021/1301 [00:11<00:02, 94.46it/s] 79%|███████▉  | 1031/1301 [00:11<00:02, 94.96it/s] 80%|████████  | 1041/1301 [00:12<00:02, 95.56it/s] 81%|████████  | 1051/1301 [00:12<00:02, 95.82it/s] 82%|████████▏ | 1061/1301 [00:12<00:02, 96.32it/s] 82%|████████▏ | 1071/1301 [00:12<00:02, 96.46it/s] 83%|████████▎ | 1081/1301 [00:12<00:02, 96.08it/s] 84%|████████▍ | 1091/1301 [00:12<00:02, 96.03it/s] 85%|████████▍ | 1101/1301 [00:12<00:02, 95.99it/s] 85%|████████▌ | 1111/1301 [00:12<00:01, 96.17it/s] 86%|████████▌ | 1121/1301 [00:12<00:01, 96.69it/s] 87%|████████▋ | 1131/1301 [00:13<00:01, 96.01it/s] 88%|████████▊ | 1141/1301 [00:13<00:01, 96.01it/s] 88%|████████▊ | 1151/1301 [00:13<00:01, 95.83it/s] 89%|████████▉ | 1161/1301 [00:13<00:01, 95.48it/s] 90%|█████████ | 1171/1301 [00:13<00:01, 95.72it/s] 91%|█████████ | 1181/1301 [00:13<00:01, 95.96it/s] 92%|█████████▏| 1191/1301 [00:13<00:01, 96.39it/s] 92%|█████████▏| 1201/1301 [00:13<00:01, 95.84it/s] 93%|█████████▎| 1211/1301 [00:13<00:00, 95.63it/s] 94%|█████████▍| 1221/1301 [00:13<00:00, 95.70it/s] 95%|█████████▍| 1231/1301 [00:14<00:00, 95.43it/s] 95%|█████████▌| 1241/1301 [00:14<00:00, 94.94it/s] 96%|█████████▌| 1251/1301 [00:14<00:00, 95.28it/s] 97%|█████████▋| 1261/1301 [00:14<00:00, 95.56it/s] 98%|█████████▊| 1271/1301 [00:14<00:00, 95.68it/s] 98%|█████████▊| 1281/1301 [00:14<00:00, 95.71it/s] 99%|█████████▉| 1291/1301 [00:14<00:00, 96.21it/s]100%|██████████| 1301/1301 [00:14<00:00, 95.95it/s]100%|██████████| 1301/1301 [00:14<00:00, 87.84it/s]
-01/11/2026 17:18:14 - INFO - qwen_vl_utils.vision_process -   set VIDEO_TOTAL_PIXELS: 90316800
-2026-01-11 17:18:14,914 - easyeditor.editors.editor - INFO - Instantiating model
-01/11/2026 17:18:14 - INFO - easyeditor.editors.editor -   Instantiating model
-这是data
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.06it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.04s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.04s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.33it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.17it/s]
-2026-01-11 17:18:18,722 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to left...
-01/11/2026 17:18:18 - INFO - easyeditor.editors.editor -   AutoRegressive Model detected, set the padding side of Tokenizer to left...
-  0%|          | 0/10 [00:00<?, ?it/s]01/11/2026 17:18:23 - INFO - torch.distributed.nn.jit.instantiator -   Created a temporary directory at /tmp/tmpnefjqia_
-01/11/2026 17:18:23 - INFO - torch.distributed.nn.jit.instantiator -   Writing /tmp/tmpnefjqia_/_remote_module_non_scriptable.py
- 10%|█         | 1/10 [00:28<04:18, 28.68s/it] 20%|██        | 2/10 [00:51<03:19, 24.96s/it] 30%|███       | 3/10 [01:16<02:57, 25.40s/it] 40%|████      | 4/10 [01:41<02:29, 24.94s/it] 50%|█████     | 5/10 [02:10<02:11, 26.40s/it] 60%|██████    | 6/10 [02:13<01:14, 18.60s/it] 70%|███████   | 7/10 [02:29<00:53, 17.81s/it] 80%|████████  | 8/10 [02:42<00:32, 16.17s/it] 90%|█████████ | 9/10 [03:08<00:19, 19.29s/it]100%|██████████| 10/10 [03:29<00:00, 19.85s/it]100%|██████████| 10/10 [03:29<00:00, 20.97s/it]
-/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:590: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:595: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
-To disable this warning, you can either:
-	- Avoid using `tokenizers` before the fork if possible
-	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
-01/11/2026 17:21:56 - INFO - openai._base_client -   Retrying request to /chat/completions in 0.420072 seconds
-01/11/2026 17:21:56 - INFO - openai._base_client -   Retrying request to /chat/completions in 0.993747 seconds
-New weights successfully inserted into model.layers[29].mlp.down_proj.weight
-Executing WISE algorithm for the update: 
-[Which family does Epaspidoceras belong to?] -> [Noctuidae]
-loss 28.828 = 8.828 + 20.0
-loss 6.83 = 2.094 + 4.736
-loss 0.911 = 0.055 + 0.856
-loss 0.037 = 0.037 + 0.0
-loss 0.029 = 0.029 + 0.0
-loss 0.023 = 0.023 + 0.0
-loss 0.02 = 0.02 + 0.0
-loss 0.017 = 0.017 + 0.0
-loss 0.015 = 0.015 + 0.0
-loss 0.013 = 0.013 + 0.0
-loss 0.012 = 0.012 + 0.0
-loss 0.011 = 0.011 + 0.0
-loss 0.01 = 0.01 + 0.0
-loss 0.009 = 0.009 + 0.0
-loss 0.009 = 0.009 + 0.0
-loss 0.008 = 0.008 + 0.0
-loss 0.007 = 0.007 + 0.0
-loss 0.007 = 0.007 + 0.0
-loss 0.007 = 0.007 + 0.0
-loss 0.006 = 0.006 + 0.0
-loss 0.006 = 0.006 + 0.0
-loss 0.006 = 0.006 + 0.0
-loss 0.005 = 0.005 + 0.0
-loss 0.005 = 0.005 + 0.0
-loss 0.005 = 0.005 + 0.0
-loss 0.005 = 0.005 + 0.0
-loss 0.005 = 0.005 + 0.0
-loss 0.004 = 0.004 + 0.0
-loss 0.004 = 0.004 + 0.0
-loss 0.004 = 0.004 + 0.0
-Executing WISE algorithm for the update: 
-[What species is ZIC3 specific to?] -> [male]
-loss 8.759 = 8.759 + 0.0
-loss 6.13 = 5.037 + 1.093
-loss 1.607 = 0.72 + 0.887
-loss 0.024 = 0.024 + 0.0
-loss 0.017 = 0.017 + 0.0
-loss 0.013 = 0.013 + 0.0
-loss 0.011 = 0.011 + 0.0
-loss 0.009 = 0.009 + 0.0
-loss 0.008 = 0.008 + 0.0
-loss 0.007 = 0.007 + 0.0
-loss 0.006 = 0.006 + 0.0
-loss 0.006 = 0.006 + 0.0
-loss 0.005 = 0.005 + 0.0
-loss 0.005 = 0.005 + 0.0
-loss 0.004 = 0.004 + 0.0
-loss 0.004 = 0.004 + 0.0
-loss 0.004 = 0.004 + 0.0
-loss 0.004 = 0.004 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-Executing WISE algorithm for the update: 
-[What voice type is Louise Grandjean?] -> [mezzo soprano]
-loss 6.717 = 6.717 + 0.0
-loss 1.052 = 0.91 + 0.142
-loss 0.636 = 0.636 + 0.0
-loss 0.428 = 0.428 + 0.0
-loss 0.284 = 0.284 + 0.0
-loss 0.188 = 0.188 + 0.0
-loss 0.127 = 0.127 + 0.0
-loss 0.09 = 0.09 + 0.0
-loss 0.067 = 0.067 + 0.0
-loss 0.052 = 0.052 + 0.0
-loss 0.042 = 0.042 + 0.0
-loss 0.034 = 0.034 + 0.0
-loss 0.029 = 0.029 + 0.0
-loss 0.025 = 0.025 + 0.0
-loss 0.022 = 0.022 + 0.0
-loss 0.019 = 0.019 + 0.0
-loss 0.017 = 0.017 + 0.0
-loss 0.015 = 0.015 + 0.0
-loss 0.014 = 0.014 + 0.0
-loss 0.013 = 0.013 + 0.0
-loss 0.012 = 0.012 + 0.0
-loss 0.011 = 0.011 + 0.0
-loss 0.01 = 0.01 + 0.0
-loss 0.009 = 0.009 + 0.0
-loss 0.009 = 0.009 + 0.0
-loss 0.008 = 0.008 + 0.0
-loss 0.008 = 0.008 + 0.0
-loss 0.007 = 0.007 + 0.0
-loss 0.007 = 0.007 + 0.0
-loss 0.007 = 0.007 + 0.0
-Executing WISE algorithm for the update: 
-[Who is listed as Wang Jipeng father?] -> [Wang Chonghua]
-loss 5.65 = 5.65 + 0.0
-loss 0.263 = 0.263 + 0.0
-loss 0.06 = 0.03 + 0.03
-loss 0.032 = 0.032 + 0.0
-loss 0.02 = 0.02 + 0.0
-loss 0.015 = 0.015 + 0.0
-loss 0.012 = 0.012 + 0.0
-loss 0.01 = 0.01 + 0.0
-loss 0.008 = 0.008 + 0.0
-loss 0.007 = 0.007 + 0.0
-loss 0.006 = 0.006 + 0.0
-loss 0.006 = 0.006 + 0.0
-loss 0.005 = 0.005 + 0.0
-loss 0.005 = 0.005 + 0.0
-loss 0.004 = 0.004 + 0.0
-loss 0.004 = 0.004 + 0.0
-loss 0.004 = 0.004 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.002 = 0.002 + 0.0
-loss 0.002 = 0.002 + 0.0
-loss 0.002 = 0.002 + 0.0
-loss 0.002 = 0.002 + 0.0
-Executing WISE algorithm for the update: 
-[What was the name of Charlotte of Schaumburg-Lippe mother?] -> [Charlotte of Bourbon-Parma]
-loss 4.702 = 4.031 + 0.672
-loss 0.42 = 0.22 + 0.2
-loss 0.045 = 0.045 + 0.0
-loss 0.028 = 0.028 + 0.0
-loss 0.021 = 0.021 + 0.0
-loss 0.017 = 0.017 + 0.0
-loss 0.014 = 0.014 + 0.0
-loss 0.012 = 0.012 + 0.0
-loss 0.01 = 0.01 + 0.0
-loss 0.009 = 0.009 + 0.0
-loss 0.008 = 0.008 + 0.0
-loss 0.008 = 0.008 + 0.0
-loss 0.007 = 0.007 + 0.0
-loss 0.006 = 0.006 + 0.0
-loss 0.006 = 0.006 + 0.0
-loss 0.006 = 0.006 + 0.0
-loss 0.005 = 0.005 + 0.0
-loss 0.005 = 0.005 + 0.0
-loss 0.005 = 0.005 + 0.0
-loss 0.004 = 0.004 + 0.0
-loss 0.004 = 0.004 + 0.0
-loss 0.004 = 0.004 + 0.0
-loss 0.004 = 0.004 + 0.0
-loss 0.004 = 0.004 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-Executing WISE algorithm for the update: 
-[What constellation is home to Butterfly Cluster?] -> [Orion]
-loss 4.52 = 4.52 + 0.0
-loss 0.001 = 0.001 + 0.0
-loss 0.001 = 0.001 + 0.0
-Executing WISE algorithm for the update: 
-[The father of Juan María Bordaberry is whom?] -> [Gabrielle Bordaberry]
-loss 5.156 = 5.156 + 0.0
-loss 0.9 = 0.9 + 0.0
-loss 0.049 = 0.009 + 0.04
-loss 0.01 = 0.01 + 0.0
-loss 0.007 = 0.007 + 0.0
-loss 0.005 = 0.005 + 0.0
-loss 0.004 = 0.004 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.002 = 0.002 + 0.0
-loss 0.002 = 0.002 + 0.0
-loss 0.002 = 0.002 + 0.0
-loss 0.002 = 0.002 + 0.0
-loss 0.002 = 0.002 + 0.0
-loss 0.001 = 0.001 + 0.0
-loss 0.001 = 0.001 + 0.0
-loss 0.001 = 0.001 + 0.0
-Executing WISE algorithm for the update: 
-[What level is Javan surili's iucn conservation status?] -> [critically threatened]
-loss 6.094 = 6.094 + 0.0
-loss 0.61 = 0.61 + 0.0
-loss 0.004 = 0.004 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.002 = 0.002 + 0.0
-loss 0.002 = 0.002 + 0.0
-loss 0.002 = 0.002 + 0.0
-loss 0.002 = 0.002 + 0.0
-loss 0.002 = 0.002 + 0.0
-loss 0.002 = 0.002 + 0.0
-Executing WISE algorithm for the update: 
-[What day was USA-199 launched?] -> [20 December 2007]
-loss 5.095 = 5.095 + 0.0
-loss 1.037 = 1.037 + 0.0
-loss 0.296 = 0.296 + 0.0
-loss 0.172 = 0.172 + 0.0
-loss 0.115 = 0.115 + 0.0
-loss 0.083 = 0.083 + 0.0
-loss 0.063 = 0.063 + 0.0
-loss 0.05 = 0.05 + 0.0
-loss 0.041 = 0.041 + 0.0
-loss 0.035 = 0.035 + 0.0
-loss 0.03 = 0.03 + 0.0
-loss 0.026 = 0.026 + 0.0
-loss 0.024 = 0.024 + 0.0
-loss 0.021 = 0.021 + 0.0
-loss 0.019 = 0.019 + 0.0
-loss 0.017 = 0.017 + 0.0
-loss 0.016 = 0.016 + 0.0
-loss 0.015 = 0.015 + 0.0
-loss 0.014 = 0.014 + 0.0
-loss 0.013 = 0.013 + 0.0
-loss 0.012 = 0.012 + 0.0
-loss 0.011 = 0.011 + 0.0
-loss 0.011 = 0.011 + 0.0
-loss 0.01 = 0.01 + 0.0
-loss 0.01 = 0.01 + 0.0
-loss 0.009 = 0.009 + 0.0
-loss 0.009 = 0.009 + 0.0
-loss 0.008 = 0.008 + 0.0
-loss 0.008 = 0.008 + 0.0
-loss 0.008 = 0.008 + 0.0
-Executing WISE algorithm for the update: 
-[What was the record label of Runaway Sunday?] -> [Motown]
-loss 6.806 = 5.12 + 1.686
-loss 2.5 = 0.421 + 2.079
-loss 0.391 = 0.01 + 0.381
-loss 0.012 = 0.012 + 0.0
-loss 0.01 = 0.01 + 0.0
-loss 0.009 = 0.009 + 0.0
-loss 0.007 = 0.007 + 0.0
-loss 0.007 = 0.007 + 0.0
-loss 0.006 = 0.006 + 0.0
-loss 0.005 = 0.005 + 0.0
-loss 0.005 = 0.005 + 0.0
-loss 0.004 = 0.004 + 0.0
-loss 0.004 = 0.004 + 0.0
-loss 0.004 = 0.004 + 0.0
-loss 0.004 = 0.004 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.003 = 0.003 + 0.0
-loss 0.002 = 0.002 + 0.0
-loss 0.002 = 0.002 + 0.0
-Model Input:
-Which family does Epaspidoceras belong to?
-Model Output:
- Epaspidocuidae is not a valid family name.
-Traceback (most recent call last):
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
-    yield
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/httpx/_transports/default.py", line 250, in handle_request
-    resp = self._pool.handle_request(req)
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
-    raise exc from None
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
-    response = connection.handle_request(
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/httpcore/_sync/connection.py", line 101, in handle_request
-    raise exc
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/httpcore/_sync/connection.py", line 78, in handle_request
-    stream = self._connect(request)
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/httpcore/_sync/connection.py", line 124, in _connect
-    stream = self._network_backend.connect_tcp(**kwargs)
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/httpcore/_backends/sync.py", line 215, in connect_tcp
-    sock.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/contextlib.py", line 137, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
-    raise to_exc(exc) from exc
-httpcore.ConnectError: [Errno 99] Cannot assign requested address
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/openai/_base_client.py", line 993, in _request
-    response = self._client.send(
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/httpx/_client.py", line 914, in send
-    response = self._send_handling_auth(
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/httpx/_client.py", line 942, in _send_handling_auth
-    response = self._send_handling_redirects(
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
-    response = self._send_single_request(request)
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/httpx/_client.py", line 1014, in _send_single_request
-    response = transport.handle_request(request)
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/httpx/_transports/default.py", line 250, in handle_request
-    resp = self._pool.handle_request(req)
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/contextlib.py", line 137, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
-    raise mapped_exc(message) from exc
-httpx.ConnectError: [Errno 99] Cannot assign requested address
-
-The above exception was the direct cause of the following exception:
-
-Traceback (most recent call last):
-  File "/root/autodl-tmp/benchmark/Knowledge-Editing-Benchmark/EasyEdit/examples/run_LLM_evaluation.py", line 286, in <module>
-    metrics, edited_model, _ = editor.edit(
-  File "/root/autodl-tmp/benchmark/Knowledge-Editing-Benchmark/EasyEdit/easyeditor/editors/editor.py", line 187, in edit
-    return self.edit_requests(requests, sequential_edit, verbose, test_generation=test_generation, **kwargs)
-  File "/root/autodl-tmp/benchmark/Knowledge-Editing-Benchmark/EasyEdit/easyeditor/editors/editor.py", line 407, in edit_requests
-    edit_evaluation(all_metrics, request, edited_model, i, test_generation, icl_examples, **kwargs)
-  File "/root/autodl-tmp/benchmark/Knowledge-Editing-Benchmark/EasyEdit/easyeditor/editors/editor.py", line 372, in edit_evaluation
-    "post": compute_edit_quality(edited_model, self.model_name, self.hparams, self.tok, request, self.hparams.device, eval_metric=eval_metric, test_generation=test_generation),
-  File "/root/autodl-tmp/benchmark/Knowledge-Editing-Benchmark/EasyEdit/easyeditor/evaluate/evaluate.py", line 66, in compute_edit_quality
-    ret = compute_rewrite_or_rephrase_quality(model, model_name, hparams, tok,
-  File "/root/autodl-tmp/benchmark/Knowledge-Editing-Benchmark/EasyEdit/easyeditor/evaluate/evaluate.py", line 116, in compute_rewrite_or_rephrase_quality
-    acc, contain_score, gen_content = test_prediction_acc_LLM_judge(model, tok, hparams, prompt, target_new, device, locality=False)
-  File "/root/autodl-tmp/benchmark/Knowledge-Editing-Benchmark/EasyEdit/easyeditor/evaluate/evaluate_utils.py", line 174, in test_prediction_acc_LLM_judge
-    LLM_Score = llm_judge(prompt, target, gen_content.strip().split("\n")[0], hparams.api_key)
-  File "/root/autodl-tmp/benchmark/Knowledge-Editing-Benchmark/EasyEdit/easyeditor/evaluate/evaluate_utils.py", line 106, in llm_judge
-    completion = client.chat.completions.create(
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/openai/_utils/_utils.py", line 275, in wrapper
-    return func(*args, **kwargs)
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/openai/resources/chat/completions.py", line 829, in create
-    return self._post(
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/openai/_base_client.py", line 1280, in post
-    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/openai/_base_client.py", line 957, in request
-    return self._request(
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/openai/_base_client.py", line 1017, in _request
-    return self._retry_request(
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/openai/_base_client.py", line 1095, in _retry_request
-    return self._request(
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/openai/_base_client.py", line 1017, in _request
-    return self._retry_request(
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/openai/_base_client.py", line 1095, in _retry_request
-    return self._request(
-  File "/root/miniconda3/envs/lifelong_edit/lib/python3.9/site-packages/openai/_base_client.py", line 1027, in _request
-    raise APIConnectionError(request=request) from err
-openai.APIConnectionError: Connection error.
