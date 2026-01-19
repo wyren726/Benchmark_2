@@ -1,3 +1,48 @@
+
+source ~/.bashrc  # 如果是bash
+conda create -n eval -y
+conda activate eval
+下载评估模型
+hf download Qwen/Qwen2.5-7B-Instruct --local-dir /root/autodl-tmp/model
+配置/root/autodl-tmp/Benchmark_2/Knowledge-Editing-Benchmark/vllm_serve.sh的评估模型路径为评估模型下载路径
+跑评估实验:
+首先创建虚拟环境: conda create -n EasyEdit python=3.9.7
+conda activate EasyEdit
+pip install -r /root/autodl-tmp/Benchmark_2/Knowledge-Editing-Benchmark/EasyEdit/requirements.txt
+pip uninstall pyarrow
+pip install pyarrow==11.0.0
+pip install rouge
+
+pip install higher
+pip install omegaconf timm
+pip install timm
+
+
+因为要用到llama模型，所以在运行下面代码前需要先
+huggingface-cli login
+填上我的token
+CUDA_VISIBLE_DEVICES=1 python /root/autodl-tmp/Benchmark_2/Knowledge-Editing-Benchmark/EasyEdit/examples/run_LLM_evaluation.py \
+    --editing_method WISE \
+    --hparams_dir /root/autodl-tmp/Benchmark_2/Knowledge-Editing-Benchmark/EasyEdit/hparams/WISE/llama3-8b.yaml \
+    --data_dir /root/autodl-tmp/Benchmark_2/Knowledge-Editing-Benchmark/wyren/dataset/zsre/ZsRE-test-all.json \
+    --output_dir /root/autodl-tmp/Benchmark_2/Knowledge-Editing-Benchmark/wyren/eval/test \
+    --train_data_path /root/autodl-tmp/Benchmark_2/Knowledge-Editing-Benchmark/wyren/dataset/zsre/zsre_train_10000.json \
+    --datatype zsre \
+    --ds_size 10 \
+    --start_index 0 \
+    --end_index 10 \
+    --sequential_edit \
+    >/root/autodl-tmp/Benchmark_2/Knowledge-Editing-Benchmark/wyren/eval/test/run_WISE_zsre_10_rewrite_portability.log 2>&1
+
+还是得把模型下载下来
+
+
+
+
+
+
+
+
 问题：
 - [] 评估的代码在哪里？和原来的评估代码有什么不同？（至少从文件目录上面我没有看出有什么不同）
 

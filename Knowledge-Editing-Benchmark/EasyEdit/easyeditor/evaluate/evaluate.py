@@ -285,7 +285,8 @@ class RetrieveTool:
 global global_retriever
 # global_retriever = RetrieveTool("/mnt/geminisgceph1/geminicephfs/mmsearch-luban-universal/group_semantic/user_mylasong/models/contriever-msmarco", "/mnt/geminisgceph1/geminicephfs/mmsearch-luban-universal/group_semantic/user_mylasong/ModelEdit/EasyEdit_new/examples/dataset/zsre/ZsRE-test-all-sentence.json", "cuda:0")
 # global_retriever = RetrieveTool("/home/wyren/.cache/huggingface/hub/models--facebook--contriever-msmarco/snapshots/abe8c1493371369031bcb1e02acb754cf4e162fa", "/home/wyren/Knowledge-Editing-Benchmark/wyren/dataset/zsre/ZsRE-test-all-sentence.json", "cuda:0")
-global_retriever = RetrieveTool("facebook/contriever-msmarco", "/root/autodl-tmp/benchmark/Knowledge-Editing-Benchmark/wyren/dataset/zsre/ZsRE-test-all-sentence.json", "cuda:0")
+# global_retriever = RetrieveTool("facebook/contriever-msmarco", "/root/autodl-tmp/benchmark/Knowledge-Editing-Benchmark/wyren/dataset/zsre/ZsRE-test-all-sentence.json", "cuda:0")
+global_retriever = RetrieveTool("facebook/contriever-msmarco", "/root/autodl-tmp/Benchmark_2/Knowledge-Editing-Benchmark/wyren/dataset/zsre/ZsRE-test-all-sentence.json", "cuda:0")
 
 
 def compute_icl_edit_quality(
