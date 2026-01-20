@@ -13,10 +13,6 @@ pip uninstall pyarrow
 pip install pyarrow==11.0.0
 pip install rouge
 
-pip install higher
-pip install omegaconf timm
-pip install timm
-
 
 因为要用到llama模型，所以在运行下面代码前需要先
 huggingface-cli login
@@ -35,6 +31,8 @@ CUDA_VISIBLE_DEVICES=1 python /root/autodl-tmp/Benchmark_2/Knowledge-Editing-Ben
     >/root/autodl-tmp/Benchmark_2/Knowledge-Editing-Benchmark/wyren/eval/test/run_WISE_zsre_10_rewrite_portability.log 2>&1
 
 还是得把模型下载下来
+hf download meta-llama/Meta-Llama-3-8B-Instruct --local-dir /root/autodl-tmp/model/llama3-8b-instruct --token 
+hf download Qwen/Qwen2.5-7B-Instruct --local-dir /root/autodl-tmp/model
 
 
 
